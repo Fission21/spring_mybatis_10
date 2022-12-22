@@ -1,4 +1,4 @@
-package domain;
+package com.mx.domain;
 
 public class Account {
     private int id;

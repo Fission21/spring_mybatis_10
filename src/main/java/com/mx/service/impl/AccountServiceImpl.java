@@ -1,10 +1,10 @@
-package service.impl;
+package com.mx.service.impl;
 
-import dao.AccountDao;
-import domain.Account;
+import com.mx.dao.AccountDao;
+import com.mx.domain.Account;
+import com.mx.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import service.AccountService;
 
 import java.util.List;
 
@@ -12,7 +12,6 @@ import java.util.List;
 public class AccountServiceImpl implements AccountService {
     @Autowired
     private AccountDao accountDao;
-
 
     @Override
     public void save(Account account) {

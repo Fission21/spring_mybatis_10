@@ -1,6 +1,6 @@
-package service;
+package com.mx.service;
 
-import domain.Account;
+import com.mx.domain.Account;
 
 import java.util.List;
 
