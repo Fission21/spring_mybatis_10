@@ -15,7 +15,7 @@ public class TransferServiceTest {
     private TransferService transferService;
 
     @Test
-    public void testTransfer(){
-        transferService.transfer("tom","bob",50d);
+    public void testTransfer() {
+        transferService.transfer("tom", "bob", 50d);
     }
 }

@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * 测试类
+ *
  * @author echo
  * @version 1.1
  **/
@@ -21,12 +22,12 @@ public class AccountServiceTest {
     private AccountService accountService;
 
     @Test
-    public void testFindId(){
-        Account ac  = accountService.findById(1);
+    public void testFindId() {
+        Account ac = accountService.findById(1);
     }
 
     @Test
-    public void testFindAllId(){
+    public void testFindAllId() {
         List<Account> all = accountService.findAll();
     }
 }

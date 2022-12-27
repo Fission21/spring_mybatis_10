@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98a80e60-90f5-47da-82ea-56de5e6e9e26" name="变更" comment="利用AOP技术中的环形通知，完成了一个测试业务层接口万次执行效率的操作。&#10;&#10;顺便使用了Junit来跑测试">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mx/dao/LogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mx/dao/TransferDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mx/domain/Transfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/TransferService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/TransferServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/impl/LogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/impl/TransferServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/aop/AccountAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/aop/AccountAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/config/JdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/config/MybatisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/service/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/service/TransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/TransferService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/service/TransferServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/TransferServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/service/impl/LogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mx/service/impl/TransferServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mx/service/impl/TransferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +168,11 @@
       <workItem from="1671693584305" duration="2990000" />
       <workItem from="1672017133457" duration="3995000" />
       <workItem from="1672034289212" duration="6017000" />
+      <workItem from="1672105469379" duration="479000" />
+      <workItem from="1672120563698" duration="803000" />
+      <workItem from="1672121935128" duration="451000" />
+      <workItem from="1672122486011" duration="14000" />
+      <workItem from="1672122896252" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="利用AOP技术中的环形通知，完成了一个测试业务层接口万次执行效率的操作。&#10;&#10;顺便使用了Junit来跑测试">
       <created>1671696704324</created>

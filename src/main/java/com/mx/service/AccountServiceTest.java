@@ -15,7 +15,7 @@ public class AccountServiceTest {
     private AccountService accountService;
 
     @Test
-    public void testFindById(){
+    public void testFindById() {
         System.out.println(accountService.findById(1));
     }
 }

@@ -24,7 +24,7 @@ public class JdbcConfig {
 
     // 配置的连接池
     @Bean
-    public DataSource dataSource(){
+    public DataSource dataSource() {
         DruidDataSource ds = new DruidDataSource();
         ds.setDriverClassName(driver);
         ds.setUrl(url);
@@ -35,7 +35,7 @@ public class JdbcConfig {
 
     // 2，配置事务管理器
     @Bean
-    public PlatformTransactionManager transactionManager(DataSource dataSource){
+    public PlatformTransactionManager transactionManager(DataSource dataSource) {
         DataSourceTransactionManager transactionManager = new DataSourceTransactionManager();
         transactionManager.setDataSource(dataSource);
         return transactionManager;

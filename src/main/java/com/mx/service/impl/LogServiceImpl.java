@@ -14,6 +14,6 @@ public class LogServiceImpl implements LogService {
 
     @Override
     public void log(String out, String in, Double money) {
-        logDao.log("转账操作由" + out + "到" + in+",金额:" + money);
+        logDao.log("转账操作由" + out + "到" + in + ",金额:" + money);
     }
 }
